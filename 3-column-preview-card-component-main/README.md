@@ -21,7 +21,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here]([https://your-solution-url.com](https://github.com/shargu/3-column-preview-card/tree/main/3-column-preview-card-component-main))
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
