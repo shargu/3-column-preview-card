@@ -1,0 +1,99 @@
+
+.container{
+  display: flex;
+  flex-direction: row;
+  width: 900px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.Sedans{
+  background-color: hsl(31, 77%, 52%);
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px 0px 0px 10px;
+}
+
+
+.SUVs{
+  background-color: hsl(184, 100%, 22%);
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.Luxury{
+  background-color: hsl(179, 100%, 13%);
+  display: flex;
+  flex-direction: column;
+  border-radius: 0px 10px 10px 0px;
+}
+
+img{
+  width: 65px;
+  margin: 35px 0 10px 30px;
+}
+
+.car-category{
+  font-family: "Big Shoulders Display", sans-serif;
+  color: hsl(0, 0%, 95%);
+  font-weight: 700;
+  font-size: 45px;
+  margin: 20px 0 10px 30px;
+  font-weight: 600;
+}
+
+.paragraph{
+   font-family: "Lexend Deca", sans-serif;
+   padding: 0 50px 90px 30px;
+   color: hsla(0, 0%, 100%, 0.75);
+   line-height: 29px;
+}
+
+button{
+  width: 130px;
+  border-radius: 20px;
+  margin-left: 30px;
+  padding: 12px 0 12px 0;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid white;
+  margin-bottom: 50px;
+  font-family: "Lexend Deca", sans-serif;
+}
+.btn-sedans{
+color: hsl(31, 77%, 52%); 
+}
+.btn-suvs{
+color:hsl(184, 100%, 22%) ;
+}
+.btn-luxury{
+  color:  hsl(179, 100%, 13%);
+}
+
+
+.btn-sedans:hover,.btn-luxury:hover, .btn-suvs:hover {
+ background-color: transparent;
+ color: white; 
+ opacity: 1;
+ border: 1px solid white;
+}
+
+@media only screen and (max-width: 900px) {
+  .container {
+    display: flex;
+    flex-direction:  column;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .Sedans{
+    border-radius: 10px 10px 0 0;
+    }
+    .Luxury{
+      border-radius: 0 0 10px 10px;
+    }
+}
